@@ -1,0 +1,12 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c1"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
