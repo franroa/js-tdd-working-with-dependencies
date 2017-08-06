@@ -8,15 +8,15 @@ describe('create-url test', function() {
         expect(url).to.be.eql('http://maps.google.com?q=-33.857,151.215');
     });
 
-    // it('should return proper url given another lat and lon', function() {
-    //     var latitude = 37.826;
-    //     var longitude = -122.423;
-    //
-    //     var url = createURL(latitude, longitude);
-    //
-    //     expect(url).to.be.eql('http://maps.google.com?q=37.826,-122.423');
-    // });
-    //
+    it('should return proper url given another lat and lon', function() {
+        var latitude = 37.826;
+        var longitude = -122.423;
+
+        var url = createURL(latitude, longitude);
+
+        expect(url).to.be.eql('http://maps.google.com?q=37.826,-122.423');
+    });
+
     it('should return empty string if latitude is undefined', function() {
         var latitude = undefined;
         var longitude = 188.123;

@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -a localhost -p 8080 -c1",
+    "start": "http-server -a localhost -c1",
     "test": "karma start --reporters clear-screen,dots"
   },
   "dependencies": {

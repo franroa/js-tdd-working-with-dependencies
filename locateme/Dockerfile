@@ -13,3 +13,6 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 # RUN ln -s /usr/bin/xvfb-chromium /usr/bin/chromium-browser
+
+# in this port karma is serving the localhost
+EXPOSE 8080
